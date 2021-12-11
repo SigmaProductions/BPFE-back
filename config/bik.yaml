@@ -1,0 +1,97 @@
+credit:
+  uri: 'bik-api-6/address'
+  result: 'result'
+  result-from-array: 'geostats'
+  grid-size: 'STAT_250M'
+  primary:
+    param-name: productCode
+    values:
+      - SALES_FINANCE_LOAN
+      - CASH_LOAN
+      - MORTGAGE_LOAN
+      - CREDIT_LIMIT
+      - CREDIT_CARD
+      - GENERAL
+      - GENERAL_BANK
+      - GENERAL_NON_BANK
+      - ALL
+  secondary:
+    param-name: section
+    values:
+      - LICZBA_3M
+      - DYN_LICZBA_3M
+      - LICZBA_6M
+      - DYN_LICZBA_6M
+      - KWOTA_3M
+      - DYN_KWOTA_3M
+      - KWOTA_6M
+      - DYN_KWOTA_6M
+      - SR_KWOTA_3M
+      - DYN_SR_KWOTA_3M
+      - SR_KWOTA_6M
+      - DYN_SR_KWOTA_6M
+      - SALDO_T0
+      - DEF_SALDO_T0
+      - L_KLIENTOW_T0
+      - UDZIAL_KLIENTOW_T0
+      - SR_ZADLUZENIE_T0
+      - SR_WIEK_KREDYOBIORCY
+      - SR_CR3_KREDYTOBIORCY
+      - SR_WIEK_POSIADACZA_T0
+      - SR_CR3_POSIADACZA_T0
+
+topografy:
+  uri: 'bik-api-10/charakterystyka-obszaru-adres'
+  result: 'areaStatistic'
+  result-unpack: true
+  grid-size: 250
+  primary:
+    param-name: areaStatistic
+    values:
+      - jednorodz
+      - budo2miesz
+      - wielorodz
+      - zbiorZam
+      - hotele
+      - turystInne
+      - biurowe
+      - handluslug
+      - transplacz
+      - garaze
+      - budPrzemys
+      - ZbiorSilos
+      - obiektyKul
+      - muzeaBibli
+      - szkoly_ins
+      - szpitaleOp
+      - budKultury
+      - budGospRoln
+      - kultuRelig
+      - budZabytko
+      - pozostale
+      - zabudowa_u
+      - ciagla_z
+      - zielen_mi
+      - pozostale_p
+      - zabudowa_m
+      - tereny_rol
+      - siec_kol
+      - teren_obec
+      - teren_spor
+      - teren_budo
+      - szybkie_dr
+      - lasy
+      - zbiorniki
+      - pozostale
+      - zabudowa_1
+      - teren_odzy
+      - tereny_por
+      - tereny_zam
+      - teren_lotn
+      - zabudowa_2
+      - zabudowa_3
+      - pastwiska
+      - teren_podmo
+      - DW_niskie
+      - DW_wysokie
+      - DW_wiezowiec

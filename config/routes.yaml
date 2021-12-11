@@ -1,0 +1,4 @@
+capacity_planner_branches:
+  path: /aggregate
+  controller: App\Controller\Api::aggregate
+  methods: [ POST ]
