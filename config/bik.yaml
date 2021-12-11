@@ -95,3 +95,49 @@ topografy:
       - DW_niskie
       - DW_wysokie
       - DW_wiezowiec
+
+demografic:
+  uri: 'bik-api-7/dane-demograficzne-adres'
+  result: 'value'
+  result-from-array: 'daneDemograficzne'
+  grid-size: 250
+  primary:
+    name: 'daneDemograficzne'
+    values:
+      - LiczbaMieszkancow0_14
+      - LiczbaMieszkancow15_24
+      - LiczbaMieszkancow25_39
+      - LiczbaMieszkancow40_59
+      - LiczbaMieszkancow60Plus
+
+pushard-power:
+  uri: 'bik-api-7/sila-nabywcza-adres'
+  result: 'value'
+  result-from-array: 'silaNabywcza'
+  grid-size: 250
+  primary:
+    name: 'silaNabywcza'
+    values:
+      - OgolnaSilaNabywcza
+      - SredniaSilaNabywcza
+
+comunication-points:
+  uri: 'bik-api-10/odleglosc-punkt-adres'
+  result: 'value'
+  result-from-array: 'addressPoint'
+  grid-size: 250
+  primary:
+    name: 'addressPoint'
+    values:
+      - odl_alubt1
+      - niebezppow
+
+wealth:
+  uri: 'bik-api-4/zamoznosc-adres'
+  result: 'value'
+  result-from-array: 'wealth'
+  primary:
+    name: 'wealth'
+    values:
+      - INBLD_T
+      - DOCH_RO

@@ -15,7 +15,7 @@ class RepositoryAggregate
         private CachedApiClient $apiClient,
     )
     {
-        $this->configuration = Yaml::parse(file_get_contents(__DIR__ . '/../../../config/bik.yaml'));
+        $this->configuration = Yaml::parse(file_get_contents(__DIR__ . '/../../config/bik.yaml'));
     }
 
     public function get(Address $address, string $primaryParam, ?string $secondaryParam = null): array

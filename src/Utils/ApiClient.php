@@ -13,14 +13,14 @@ class ApiClient implements ApiClientInterface
     private array $headers = [
         'Content-Type' => 'application/json',
         'Accept' => 'application/json',
-        'BIK-OAPI-Key' => '6ef94f887c3d460d85da1e515a09a785',
+        'BIK-OAPI-Key' => 'ec7d1c806b6141f3ace2ed563dd37f1b',
     ];
 
     public function __construct()
     {
         $this->client = new Client([
             'base_uri' => "https://gateway.oapi.bik.pl",
-            'cert'     => ['/app/public/mentorzyBIK.pfx', 'P6Lqeukbc2kT'],
+            'cert'     => ['/app/public/bik.pfx', 'P6Lqeukbc2kT'],
             'curl'     => [CURLOPT_SSLCERTTYPE => 'P12'],
             'verify' => false
         ]);
