@@ -9,6 +9,7 @@ use Symfony\Component\Yaml\Yaml;
 
 class RepositoryAggregate
 {
+    const CITY = "Łódź";
     private array $configuration;
 
     public function __construct(
@@ -28,7 +29,7 @@ class RepositoryAggregate
         $date = [
             'address'  => [
                 'code' => $address->postalCode,
-                'city' => "Łódź",
+                'city' => self::CITY,
                 'street' => $address->street,
                 'building_number' => $address->number,
             ],

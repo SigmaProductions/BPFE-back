@@ -1,0 +1,88 @@
+openapi: 3.0.2
+info:
+  title: BIK HUB API gateway-aggregator API
+  version: 1.0.0
+paths:
+  /aggregate:
+    post:
+      summary: Aggregate data from multiple BIK api endpoints and return a single response.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                address:
+                  $ref: '#/components/schemas/Address'
+                demanded:
+                  type: array
+                  description: List of BIKs features to be aggregated.
+                  items:
+                    type: string
+                  example: ['SALES_FINANCE_LOAN/DYN_KWOTA_3M', 'CASH_LOAN/SALDO_T0', 'LiczbaMieszkancow15_24', 'jednorodz']
+      responses:
+        200:
+          description: Response in key-value format.
+          content:
+            application/json:
+              schema:
+                type: object
+                description: Aggregated data.
+                example:
+                  {
+                    SALES_FINANCE_LOAN/DYN_KWOTA_3M: '0.00',
+                    CASH_LOAN/SALDO_T0: '0.00',
+                    LiczbaMieszkancow15_24: '70000',
+                    jednorodz: '0',
+                  }
+
+  /meta-description:
+    get:
+      summary: Get meta description of BIKs features.
+      responses:
+        200:
+          description: Response contaning aviable BIKs features with human readable description.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  properties:
+                    endpoint:
+                      type: string
+                      description: Endpoint name.
+                    summary:
+                      type: string
+                      description: Human readable description of the endpoint.
+                example:
+                  [
+                    {
+                      "endpoint": "teren_podmo",
+                      "summary": "tereny podmokłe (teren_podmo)"
+                    },
+                    {
+                      "endpoint": "DW_wiezowiec",
+                      "summary": "liczba budynków wielorodzinnych typu wieżowiec (DW_wiezowiec)"
+                    },
+                    {
+                      "endpoint": "SALES_FINANCE_LOAN/LICZBA_3M",
+                      "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługLiczba sprzedaży kredytów/pożyczek w okresie 3 miesięcy"
+                    },
+                  ]
+
+components:
+  schemas:
+    Address:
+      properties:
+        street:
+          type: string
+          example: Piotrkowska
+        number:
+          type: integer
+          example: 212
+        postcode:
+          type: integer
+          example: 90369
+
+

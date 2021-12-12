@@ -1,0 +1,946 @@
+[
+  {
+    "endpoint": "jednorodz",
+    "summary": "liczba budynków jednorodzinnych (jednorodz)"
+  },
+  {
+    "endpoint": "budo2miesz",
+    "summary": "liczba budynków o dwóch mieszkaniach (budo2miesz)"
+  },
+  {
+    "endpoint": "wielorodz",
+    "summary": "liczba budynków wielorodzinnych (wielorodz)"
+  },
+  {
+    "endpoint": "zbiorZam",
+    "summary": "liczba budynków zbiorowego zamieszkania (zbiorZam)"
+  },
+  {
+    "endpoint": "hotele",
+    "summary": "liczba hoteli (hotele)"
+  },
+  {
+    "endpoint": "turystInne",
+    "summary": "liczba innych budynków turystycznych (turystInne)"
+  },
+  {
+    "endpoint": "biurowe",
+    "summary": "liczba budynków biurowych (biurowe)"
+  },
+  {
+    "endpoint": "handluslug",
+    "summary": "liczba budynków handlowo-usługowych (handluslug)"
+  },
+  {
+    "endpoint": "transplacz",
+    "summary": "liczba budynków transportu i łączności (transplacz)"
+  },
+  {
+    "endpoint": "garaze",
+    "summary": "liczba garaży (garaze)"
+  },
+  {
+    "endpoint": "budPrzemys",
+    "summary": "liczba budynków przemysłowych (budPrzemys)"
+  },
+  {
+    "endpoint": "ZbiorSilos",
+    "summary": "liczba zbiorników"
+  },
+  {
+    "endpoint": "obiektyKul",
+    "summary": "liczba obiektów kultury (obiektyKul)"
+  },
+  {
+    "endpoint": "muzeaBibli",
+    "summary": "liczba muzeów i bibliotek (muzeaBibli)"
+  },
+  {
+    "endpoint": "Szkoly",
+    "summary": "liczba szkół i instytucji naukowych (szkoly_ins)"
+  },
+  {
+    "endpoint": "szpitaleOp",
+    "summary": "liczba budynków szpitali i budynków opieki zdrowotnej (szpitaleOp)"
+  },
+  {
+    "endpoint": "budKultury",
+    "summary": "liczba budynków kultury fizycznej i sportu (budKultury)"
+  },
+  {
+    "endpoint": "budGospRoln",
+    "summary": "liczba budynków gospodarstw rolnych (budGospRoln)"
+  },
+  {
+    "endpoint": "kultuRelig",
+    "summary": "liczba budynków kultu religijnego (kultuRelig)"
+  },
+  {
+    "endpoint": "budZabytko",
+    "summary": "liczba budynków zabytkowych (budZabytko)"
+  },
+  {
+    "endpoint": "pozostale",
+    "summary": "liczba pozostałych budynków niemieszkalnych (pozostale)"
+  },
+  {
+    "endpoint": "powierzch",
+    "summary": "powierzchni zabudowanej (powierzch)"
+  },
+  {
+    "endpoint": "zabudowa_u",
+    "summary": "zabudowa usługowa"
+  },
+  {
+    "endpoint": "ciagla_z",
+    "summary": "ciągła zabudowa mieszkaniowa - gęstość zabudowy > 80% (ciagla_z)"
+  },
+  {
+    "endpoint": "zielen_mi",
+    "summary": "zieleń miejska (zielen_mi)"
+  },
+  {
+    "endpoint": "pozostale_p",
+    "summary": "pozostałe drogi i przylegające tereny (pozostale_p)"
+  },
+  {
+    "endpoint": "zabudowa_m",
+    "summary": "zabudowa mieszkaniowa - gęstość zabudowy: 50% - 80% (zabudowa_m)"
+  },
+  {
+    "endpoint": "tereny_rol",
+    "summary": "tereny rolnicze (tereny_rol)"
+  },
+  {
+    "endpoint": "siec_kol",
+    "summary": "sieć kolejowa (siec_kol)"
+  },
+  {
+    "endpoint": "teren_obec",
+    "summary": "teren obecnie niewykorzystywany (teren_obec)"
+  },
+  {
+    "endpoint": "teren_spor",
+    "summary": "teren sportowy (teren_spor)"
+  },
+  {
+    "endpoint": "teren_budo",
+    "summary": "teren budowy (teren_budo)"
+  },
+  {
+    "endpoint": "szybkie_dr",
+    "summary": "szybkie drogi tranzytowe (szybkie_dr)"
+  },
+  {
+    "endpoint": "lasy",
+    "summary": "lasy (lasy)"
+  },
+  {
+    "endpoint": "zbiorniki",
+    "summary": "zbiorniki wodne (zbiorniki)"
+  },
+  {
+    "endpoint": "zabudowa_1",
+    "summary": "zabudowa mieszkaniowa - gęstość zabudowy: 30% - 50% (zabudowa_1)"
+  },
+  {
+    "endpoint": "teren_odzy",
+    "summary": "teren odzyskiwania i składowania minerałów (teren_odzy)"
+  },
+  {
+    "endpoint": "tereny_por",
+    "summary": "tereny portów (tereny_por)"
+  },
+  {
+    "endpoint": "tereny_zam",
+    "summary": "tereny zamknięte (tereny_zam)"
+  },
+  {
+    "endpoint": "teren_lotn",
+    "summary": "teren lotniska (teren_lotn)"
+  },
+  {
+    "endpoint": "zabudowa_2",
+    "summary": "zabudowa mieszkaniowa - gęstość zabudowy: 10% - 30% (zabudowa_2)"
+  },
+  {
+    "endpoint": "zabudowa_3",
+    "summary": "zabudowa mieszkaniowa - gęstość zabudowy < 10% (zabudowa_3)"
+  },
+  {
+    "endpoint": "pastwiska",
+    "summary": "pastwiska (pastwiska)"
+  },
+  {
+    "endpoint": "teren_podmo",
+    "summary": "tereny podmokłe (teren_podmo)"
+  },
+  {
+    "endpoint": "DW_niskie",
+    "summary": "liczba budynków wielorodzinnych niskich (DW_niskie)"
+  },
+  {
+    "endpoint": "DW_wysokie",
+    "summary": "liczba budynków wielorodzinnych wysokich (DW_wysokie)"
+  },
+  {
+    "endpoint": "DW_wiezowiec",
+    "summary": "liczba budynków wielorodzinnych typu wieżowiec (DW_wiezowiec)"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/LICZBA_3M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługLiczba sprzedaży kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/DYN_LICZBA_3M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługDynamika sprzedaży kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/LICZBA_6M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługLiczba sprzedaży kredytów/pożyczek w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/DYN_LICZBA_6M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usług Dynamika sprzedaży kredytów/pożyczek z okresu 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/DYN_KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługDynamika sprzedaży wartości kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/DYN_KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługDynamika sprzedaży wartości kredytów/pożyczek z okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/DYN_SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługDynamika roczna średniej kwoty kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/DYN_SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługDynamika roczna średniej kwoty kredytów/pożyczek w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/SALDO_T0",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługWartość kredytów/pożyczek (w tysiącach)"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/DEF_SALDO_T0",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługUdział kredytów/pożyczek opóźnionych pow. 90 dni (wartościowo)"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/L_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usług Liczba kredytobiorców/pożyczkobiorców na moment obserwacji"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/UDZIAL_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługdział kredytobiorców/pożyczkobiorców wśród mieszkańców 20+"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/SR_ZADLUZENIE_T0",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługŚrednie zadłużenie klienta (w tysiącach)"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/SR_WIEK_KREDYOBIORCY",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługŚredni wiek kredytobiorców/ pożyczkobiorców (dotyczy klientów"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/SR_CR3_KREDYTOBIORCY",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługŚrednia punktacja CR3 (dotyczy klientów"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/SR_WIEK_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługŚredni aktualny wiek posiadacza kredytu/ pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "SALES_FINANCE_LOAN/SR_CR3_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Kredyt na zakup towarów i usługŚrednia punktacja CR3 posiadaczy kredytu/pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "CASH_LOAN/LICZBA_3M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyLiczba sprzedaży kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CASH_LOAN/DYN_LICZBA_3M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyDynamika sprzedaży kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "CASH_LOAN/LICZBA_6M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyLiczba sprzedaży kredytów/pożyczek w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CASH_LOAN/DYN_LICZBA_6M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowy Dynamika sprzedaży kredytów/pożyczek z okresu 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CASH_LOAN/KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CASH_LOAN/DYN_KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyDynamika sprzedaży wartości kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "CASH_LOAN/KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CASH_LOAN/DYN_KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyDynamika sprzedaży wartości kredytów/pożyczek z okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CASH_LOAN/SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CASH_LOAN/DYN_SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyDynamika roczna średniej kwoty kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CASH_LOAN/SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "CASH_LOAN/DYN_SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyDynamika roczna średniej kwoty kredytów/pożyczek w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "CASH_LOAN/SALDO_T0",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyWartość kredytów/pożyczek (w tysiącach)"
+  },
+  {
+    "endpoint": "CASH_LOAN/DEF_SALDO_T0",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyUdział kredytów/pożyczek opóźnionych pow. 90 dni (wartościowo)"
+  },
+  {
+    "endpoint": "CASH_LOAN/L_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Kredyt gotówkowy Liczba kredytobiorców/pożyczkobiorców na moment obserwacji"
+  },
+  {
+    "endpoint": "CASH_LOAN/UDZIAL_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Kredyt gotówkowydział kredytobiorców/pożyczkobiorców wśród mieszkańców 20+"
+  },
+  {
+    "endpoint": "CASH_LOAN/SR_ZADLUZENIE_T0",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyŚrednie zadłużenie klienta (w tysiącach)"
+  },
+  {
+    "endpoint": "CASH_LOAN/SR_WIEK_KREDYOBIORCY",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyŚredni wiek kredytobiorców/ pożyczkobiorców (dotyczy klientów"
+  },
+  {
+    "endpoint": "CASH_LOAN/SR_CR3_KREDYTOBIORCY",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyŚrednia punktacja CR3 (dotyczy klientów"
+  },
+  {
+    "endpoint": "CASH_LOAN/SR_WIEK_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyŚredni aktualny wiek posiadacza kredytu/ pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "CASH_LOAN/SR_CR3_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Kredyt gotówkowyŚrednia punktacja CR3 posiadaczy kredytu/pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/LICZBA_3M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyLiczba sprzedaży kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/DYN_LICZBA_3M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyDynamika sprzedaży kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/LICZBA_6M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyLiczba sprzedaży kredytów/pożyczek w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/DYN_LICZBA_6M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowy Dynamika sprzedaży kredytów/pożyczek z okresu 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/DYN_KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyDynamika sprzedaży wartości kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/DYN_KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyDynamika sprzedaży wartości kredytów/pożyczek z okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/DYN_SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyDynamika roczna średniej kwoty kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/DYN_SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyDynamika roczna średniej kwoty kredytów/pożyczek w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/SALDO_T0",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyWartość kredytów/pożyczek (w tysiącach)"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/DEF_SALDO_T0",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyUdział kredytów/pożyczek opóźnionych pow. 90 dni (wartościowo)"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/L_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowy Liczba kredytobiorców/pożyczkobiorców na moment obserwacji"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/UDZIAL_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowydział kredytobiorców/pożyczkobiorców wśród mieszkańców 20+"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/SR_ZADLUZENIE_T0",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyŚrednie zadłużenie klienta (w tysiącach)"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/SR_WIEK_KREDYOBIORCY",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyŚredni wiek kredytobiorców/ pożyczkobiorców (dotyczy klientów"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/SR_CR3_KREDYTOBIORCY",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyŚrednia punktacja CR3 (dotyczy klientów"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/SR_WIEK_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyŚredni aktualny wiek posiadacza kredytu/ pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "MORTGAGE_LOAN/SR_CR3_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Kredyt mieszkaniowyŚrednia punktacja CR3 posiadaczy kredytu/pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/LICZBA_3M",
+    "summary": "Rodzaj produktu: Limit kredytowyLiczba sprzedaży kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/DYN_LICZBA_3M",
+    "summary": "Rodzaj produktu: Limit kredytowyDynamika sprzedaży kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/LICZBA_6M",
+    "summary": "Rodzaj produktu: Limit kredytowyLiczba sprzedaży kredytów/pożyczek w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/DYN_LICZBA_6M",
+    "summary": "Rodzaj produktu: Limit kredytowy Dynamika sprzedaży kredytów/pożyczek z okresu 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/KWOTA_3M",
+    "summary": "Rodzaj produktu: Limit kredytowyWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/DYN_KWOTA_3M",
+    "summary": "Rodzaj produktu: Limit kredytowyDynamika sprzedaży wartości kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/KWOTA_6M",
+    "summary": "Rodzaj produktu: Limit kredytowyWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/DYN_KWOTA_6M",
+    "summary": "Rodzaj produktu: Limit kredytowyDynamika sprzedaży wartości kredytów/pożyczek z okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Limit kredytowyŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/DYN_SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Limit kredytowyDynamika roczna średniej kwoty kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Limit kredytowyŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/DYN_SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Limit kredytowyDynamika roczna średniej kwoty kredytów/pożyczek w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/SALDO_T0",
+    "summary": "Rodzaj produktu: Limit kredytowyWartość kredytów/pożyczek (w tysiącach)"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/DEF_SALDO_T0",
+    "summary": "Rodzaj produktu: Limit kredytowyUdział kredytów/pożyczek opóźnionych pow. 90 dni (wartościowo)"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/L_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Limit kredytowy Liczba kredytobiorców/pożyczkobiorców na moment obserwacji"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/UDZIAL_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Limit kredytowydział kredytobiorców/pożyczkobiorców wśród mieszkańców 20+"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/SR_ZADLUZENIE_T0",
+    "summary": "Rodzaj produktu: Limit kredytowyŚrednie zadłużenie klienta (w tysiącach)"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/SR_WIEK_KREDYOBIORCY",
+    "summary": "Rodzaj produktu: Limit kredytowyŚredni wiek kredytobiorców/ pożyczkobiorców (dotyczy klientów"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/SR_CR3_KREDYTOBIORCY",
+    "summary": "Rodzaj produktu: Limit kredytowyŚrednia punktacja CR3 (dotyczy klientów"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/SR_WIEK_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Limit kredytowyŚredni aktualny wiek posiadacza kredytu/ pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "CREDIT_LIMIT/SR_CR3_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Limit kredytowyŚrednia punktacja CR3 posiadaczy kredytu/pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "CREDIT_CARD/LICZBA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaLiczba sprzedaży kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_CARD/DYN_LICZBA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaDynamika sprzedaży kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_CARD/LICZBA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowaLiczba sprzedaży kredytów/pożyczek w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CREDIT_CARD/DYN_LICZBA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowa Dynamika sprzedaży kredytów/pożyczek z okresu 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CREDIT_CARD/KWOTA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_CARD/DYN_KWOTA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaDynamika sprzedaży wartości kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_CARD/KWOTA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowaWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CREDIT_CARD/DYN_KWOTA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowaDynamika sprzedaży wartości kredytów/pożyczek z okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "CREDIT_CARD/SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_CARD/DYN_SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaDynamika roczna średniej kwoty kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_CARD/SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowaŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_CARD/DYN_SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowaDynamika roczna średniej kwoty kredytów/pożyczek w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "CREDIT_CARD/SALDO_T0",
+    "summary": "Rodzaj produktu: Karta kredytowaWartość kredytów/pożyczek (w tysiącach)"
+  },
+  {
+    "endpoint": "CREDIT_CARD/DEF_SALDO_T0",
+    "summary": "Rodzaj produktu: Karta kredytowaUdział kredytów/pożyczek opóźnionych pow. 90 dni (wartościowo)"
+  },
+  {
+    "endpoint": "CREDIT_CARD/L_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Karta kredytowa Liczba kredytobiorców/pożyczkobiorców na moment obserwacji"
+  },
+  {
+    "endpoint": "CREDIT_CARD/UDZIAL_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Karta kredytowadział kredytobiorców/pożyczkobiorców wśród mieszkańców 20+"
+  },
+  {
+    "endpoint": "CREDIT_CARD/SR_ZADLUZENIE_T0",
+    "summary": "Rodzaj produktu: Karta kredytowaŚrednie zadłużenie klienta (w tysiącach)"
+  },
+  {
+    "endpoint": "CREDIT_CARD/SR_WIEK_KREDYOBIORCY",
+    "summary": "Rodzaj produktu: Karta kredytowaŚredni wiek kredytobiorców/ pożyczkobiorców (dotyczy klientów"
+  },
+  {
+    "endpoint": "CREDIT_CARD/SR_CR3_KREDYTOBIORCY",
+    "summary": "Rodzaj produktu: Karta kredytowaŚrednia punktacja CR3 (dotyczy klientów"
+  },
+  {
+    "endpoint": "CREDIT_CARD/SR_WIEK_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Karta kredytowaŚredni aktualny wiek posiadacza kredytu/ pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "CREDIT_CARD/SR_CR3_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Karta kredytowaŚrednia punktacja CR3 posiadaczy kredytu/pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "GENERAL/LICZBA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaLiczba sprzedaży kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL/DYN_LICZBA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaDynamika sprzedaży kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL/LICZBA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowaLiczba sprzedaży kredytów/pożyczek w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL/DYN_LICZBA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowa Dynamika sprzedaży kredytów/pożyczek z okresu 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL/KWOTA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL/DYN_KWOTA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaDynamika sprzedaży wartości kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL/KWOTA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowaWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL/DYN_KWOTA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowaDynamika sprzedaży wartości kredytów/pożyczek z okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL/SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL/DYN_SR_KWOTA_3M",
+    "summary": "Rodzaj produktu: Karta kredytowaDynamika roczna średniej kwoty kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL/SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowaŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL/DYN_SR_KWOTA_6M",
+    "summary": "Rodzaj produktu: Karta kredytowaDynamika roczna średniej kwoty kredytów/pożyczek w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL/SALDO_T0",
+    "summary": "Rodzaj produktu: Karta kredytowaWartość kredytów/pożyczek (w tysiącach)"
+  },
+  {
+    "endpoint": "GENERAL/DEF_SALDO_T0",
+    "summary": "Rodzaj produktu: Karta kredytowaUdział kredytów/pożyczek opóźnionych pow. 90 dni (wartościowo)"
+  },
+  {
+    "endpoint": "GENERAL/L_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Karta kredytowa Liczba kredytobiorców/pożyczkobiorców na moment obserwacji"
+  },
+  {
+    "endpoint": "GENERAL/UDZIAL_KLIENTOW_T0",
+    "summary": "Rodzaj produktu: Karta kredytowadział kredytobiorców/pożyczkobiorców wśród mieszkańców 20+"
+  },
+  {
+    "endpoint": "GENERAL/SR_ZADLUZENIE_T0",
+    "summary": "Rodzaj produktu: Karta kredytowaŚrednie zadłużenie klienta (w tysiącach)"
+  },
+  {
+    "endpoint": "GENERAL/SR_WIEK_KREDYOBIORCY",
+    "summary": "Rodzaj produktu: Karta kredytowaŚredni wiek kredytobiorców/ pożyczkobiorców (dotyczy klientów"
+  },
+  {
+    "endpoint": "GENERAL/SR_CR3_KREDYTOBIORCY",
+    "summary": "Rodzaj produktu: Karta kredytowaŚrednia punktacja CR3 (dotyczy klientów"
+  },
+  {
+    "endpoint": "GENERAL/SR_WIEK_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Karta kredytowaŚredni aktualny wiek posiadacza kredytu/ pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "GENERAL/SR_CR3_POSIADACZA_T0",
+    "summary": "Rodzaj produktu: Karta kredytowaŚrednia punktacja CR3 posiadaczy kredytu/pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "GENERAL_BANK/LICZBA_3M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Liczba sprzedaży kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_BANK/DYN_LICZBA_3M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Dynamika sprzedaży kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_BANK/LICZBA_6M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Liczba sprzedaży kredytów/pożyczek w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL_BANK/DYN_LICZBA_6M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy) Dynamika sprzedaży kredytów/pożyczek z okresu 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL_BANK/KWOTA_3M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Wartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_BANK/DYN_KWOTA_3M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Dynamika sprzedaży wartości kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_BANK/KWOTA_6M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Wartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL_BANK/DYN_KWOTA_6M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Dynamika sprzedaży wartości kredytów/pożyczek z okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL_BANK/SR_KWOTA_3M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Średnia kwota kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_BANK/DYN_SR_KWOTA_3M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Dynamika roczna średniej kwoty kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_BANK/SR_KWOTA_6M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Średnia kwota kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_BANK/DYN_SR_KWOTA_6M",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Dynamika roczna średniej kwoty kredytów/pożyczek w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_BANK/SALDO_T0",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Wartość kredytów/pożyczek (w tysiącach)"
+  },
+  {
+    "endpoint": "GENERAL_BANK/DEF_SALDO_T0",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Udział kredytów/pożyczek opóźnionych pow. 90 dni (wartościowo)"
+  },
+  {
+    "endpoint": "GENERAL_BANK/L_KLIENTOW_T0",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy) Liczba kredytobiorców/pożyczkobiorców na moment obserwacji"
+  },
+  {
+    "endpoint": "GENERAL_BANK/UDZIAL_KLIENTOW_T0",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)dział kredytobiorców/pożyczkobiorców wśród mieszkańców 20+"
+  },
+  {
+    "endpoint": "GENERAL_BANK/SR_ZADLUZENIE_T0",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Średnie zadłużenie klienta (w tysiącach)"
+  },
+  {
+    "endpoint": "GENERAL_BANK/SR_WIEK_KREDYOBIORCY",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Średni wiek kredytobiorców/ pożyczkobiorców (dotyczy klientów"
+  },
+  {
+    "endpoint": "GENERAL_BANK/SR_CR3_KREDYTOBIORCY",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Średnia punktacja CR3 (dotyczy klientów"
+  },
+  {
+    "endpoint": "GENERAL_BANK/SR_WIEK_POSIADACZA_T0",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Średni aktualny wiek posiadacza kredytu/ pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "GENERAL_BANK/SR_CR3_POSIADACZA_T0",
+    "summary": "Statystki ogólne (sektor bankowy i pozabankowy)Średnia punktacja CR3 posiadaczy kredytu/pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/LICZBA_3M",
+    "summary": "Statystki ogólne w sektorze bankowymLiczba sprzedaży kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/DYN_LICZBA_3M",
+    "summary": "Statystki ogólne w sektorze bankowymDynamika sprzedaży kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/LICZBA_6M",
+    "summary": "Statystki ogólne w sektorze bankowymLiczba sprzedaży kredytów/pożyczek w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/DYN_LICZBA_6M",
+    "summary": "Statystki ogólne w sektorze bankowym Dynamika sprzedaży kredytów/pożyczek z okresu 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/KWOTA_3M",
+    "summary": "Statystki ogólne w sektorze bankowymWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/DYN_KWOTA_3M",
+    "summary": "Statystki ogólne w sektorze bankowymDynamika sprzedaży wartości kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/KWOTA_6M",
+    "summary": "Statystki ogólne w sektorze bankowymWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/DYN_KWOTA_6M",
+    "summary": "Statystki ogólne w sektorze bankowymDynamika sprzedaży wartości kredytów/pożyczek z okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/SR_KWOTA_3M",
+    "summary": "Statystki ogólne w sektorze bankowymŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/DYN_SR_KWOTA_3M",
+    "summary": "Statystki ogólne w sektorze bankowymDynamika roczna średniej kwoty kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/SR_KWOTA_6M",
+    "summary": "Statystki ogólne w sektorze bankowymŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/DYN_SR_KWOTA_6M",
+    "summary": "Statystki ogólne w sektorze bankowymDynamika roczna średniej kwoty kredytów/pożyczek w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/SALDO_T0",
+    "summary": "Statystki ogólne w sektorze bankowymWartość kredytów/pożyczek (w tysiącach)"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/DEF_SALDO_T0",
+    "summary": "Statystki ogólne w sektorze bankowymUdział kredytów/pożyczek opóźnionych pow. 90 dni (wartościowo)"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/L_KLIENTOW_T0",
+    "summary": "Statystki ogólne w sektorze bankowym Liczba kredytobiorców/pożyczkobiorców na moment obserwacji"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/UDZIAL_KLIENTOW_T0",
+    "summary": "Statystki ogólne w sektorze bankowymdział kredytobiorców/pożyczkobiorców wśród mieszkańców 20+"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/SR_ZADLUZENIE_T0",
+    "summary": "Statystki ogólne w sektorze bankowymŚrednie zadłużenie klienta (w tysiącach)"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/SR_WIEK_KREDYOBIORCY",
+    "summary": "Statystki ogólne w sektorze bankowymŚredni wiek kredytobiorców/ pożyczkobiorców (dotyczy klientów"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/SR_CR3_KREDYTOBIORCY",
+    "summary": "Statystki ogólne w sektorze bankowymŚrednia punktacja CR3 (dotyczy klientów"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/SR_WIEK_POSIADACZA_T0",
+    "summary": "Statystki ogólne w sektorze bankowymŚredni aktualny wiek posiadacza kredytu/ pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "GENERAL_NON_BANK/SR_CR3_POSIADACZA_T0",
+    "summary": "Statystki ogólne w sektorze bankowymŚrednia punktacja CR3 posiadaczy kredytu/pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "ALL/LICZBA_3M",
+    "summary": "Statystki ogólne w sektorze pozabankowymLiczba sprzedaży kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "ALL/DYN_LICZBA_3M",
+    "summary": "Statystki ogólne w sektorze pozabankowymDynamika sprzedaży kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "ALL/LICZBA_6M",
+    "summary": "Statystki ogólne w sektorze pozabankowymLiczba sprzedaży kredytów/pożyczek w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "ALL/DYN_LICZBA_6M",
+    "summary": "Statystki ogólne w sektorze pozabankowym Dynamika sprzedaży kredytów/pożyczek z okresu 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "ALL/KWOTA_3M",
+    "summary": "Statystki ogólne w sektorze pozabankowymWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "ALL/DYN_KWOTA_3M",
+    "summary": "Statystki ogólne w sektorze pozabankowymDynamika sprzedaży wartości kredytów/pożyczek z ostatnich 3 miesięcy"
+  },
+  {
+    "endpoint": "ALL/KWOTA_6M",
+    "summary": "Statystki ogólne w sektorze pozabankowymWartość sprzedaży kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "ALL/DYN_KWOTA_6M",
+    "summary": "Statystki ogólne w sektorze pozabankowymDynamika sprzedaży wartości kredytów/pożyczek z okresie 4-6 miesięcy temu"
+  },
+  {
+    "endpoint": "ALL/SR_KWOTA_3M",
+    "summary": "Statystki ogólne w sektorze pozabankowymŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "ALL/DYN_SR_KWOTA_3M",
+    "summary": "Statystki ogólne w sektorze pozabankowymDynamika roczna średniej kwoty kredytów/pożyczek w okresie 3 miesięcy"
+  },
+  {
+    "endpoint": "ALL/SR_KWOTA_6M",
+    "summary": "Statystki ogólne w sektorze pozabankowymŚrednia kwota kredytów/pożyczek (w tysiącach) w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "ALL/DYN_SR_KWOTA_6M",
+    "summary": "Statystki ogólne w sektorze pozabankowymDynamika roczna średniej kwoty kredytów/pożyczek w okresie 4-6 miesięcy"
+  },
+  {
+    "endpoint": "ALL/SALDO_T0",
+    "summary": "Statystki ogólne w sektorze pozabankowymWartość kredytów/pożyczek (w tysiącach)"
+  },
+  {
+    "endpoint": "ALL/DEF_SALDO_T0",
+    "summary": "Statystki ogólne w sektorze pozabankowymUdział kredytów/pożyczek opóźnionych pow. 90 dni (wartościowo)"
+  },
+  {
+    "endpoint": "ALL/L_KLIENTOW_T0",
+    "summary": "Statystki ogólne w sektorze pozabankowym Liczba kredytobiorców/pożyczkobiorców na moment obserwacji"
+  },
+  {
+    "endpoint": "ALL/UDZIAL_KLIENTOW_T0",
+    "summary": "Statystki ogólne w sektorze pozabankowymdział kredytobiorców/pożyczkobiorców wśród mieszkańców 20+"
+  },
+  {
+    "endpoint": "ALL/SR_ZADLUZENIE_T0",
+    "summary": "Statystki ogólne w sektorze pozabankowymŚrednie zadłużenie klienta (w tysiącach)"
+  },
+  {
+    "endpoint": "ALL/SR_WIEK_KREDYOBIORCY",
+    "summary": "Statystki ogólne w sektorze pozabankowymŚredni wiek kredytobiorców/ pożyczkobiorców (dotyczy klientów"
+  },
+  {
+    "endpoint": "ALL/SR_CR3_KREDYTOBIORCY",
+    "summary": "Statystki ogólne w sektorze pozabankowymŚrednia punktacja CR3 (dotyczy klientów"
+  },
+  {
+    "endpoint": "ALL/SR_WIEK_POSIADACZA_T0",
+    "summary": "Statystki ogólne w sektorze pozabankowymŚredni aktualny wiek posiadacza kredytu/ pożyczki w momencie obserwacji"
+  },
+  {
+    "endpoint": "ALL/SR_CR3_POSIADACZA_T0",
+    "summary": "Statystki ogólne w sektorze pozabankowymŚrednia punktacja CR3 posiadaczy kredytu/pożyczki w momencie obserwacji"
+  }
+]

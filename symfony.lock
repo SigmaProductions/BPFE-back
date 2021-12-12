@@ -103,27 +103,6 @@
     "laminas/laminas-code": {
         "version": "4.4.3"
     },
-    "lcobucci/clock": {
-        "version": "2.0.0"
-    },
-    "lcobucci/jwt": {
-        "version": "4.1.5"
-    },
-    "lexik/jwt-authentication-bundle": {
-        "version": "2.13",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "2.5",
-            "ref": "5b2157bcd5778166a5696e42f552ad36529a07a6"
-        },
-        "files": [
-            "config/packages/lexik_jwt_authentication.yaml"
-        ]
-    },
-    "namshi/jose": {
-        "version": "7.2.3"
-    },
     "nikic/php-parser": {
         "version": "v4.13.0"
     },
@@ -266,9 +245,6 @@
             "config/packages/messenger.yaml"
         ]
     },
-    "symfony/password-hasher": {
-        "version": "v5.3.8"
-    },
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.23.1"
     },
@@ -277,9 +253,6 @@
     },
     "symfony/polyfill-mbstring": {
         "version": "v1.23.1"
-    },
-    "symfony/polyfill-php56": {
-        "version": "v1.20.0"
     },
     "symfony/polyfill-php73": {
         "version": "v1.23.0"
@@ -292,12 +265,6 @@
     },
     "symfony/process": {
         "version": "v5.3.7"
-    },
-    "symfony/property-access": {
-        "version": "v5.3.8"
-    },
-    "symfony/property-info": {
-        "version": "v5.3.8"
     },
     "symfony/proxy-manager-bridge": {
         "version": "v5.3.4"
@@ -320,30 +287,6 @@
     },
     "symfony/runtime": {
         "version": "v5.3.4"
-    },
-    "symfony/security-bundle": {
-        "version": "5.3",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "5.3",
-            "ref": "9c4fcf79873f7400c885b90935f7163233615d6f"
-        },
-        "files": [
-            "config/packages/security.yaml"
-        ]
-    },
-    "symfony/security-core": {
-        "version": "v5.3.8"
-    },
-    "symfony/security-csrf": {
-        "version": "v5.3.4"
-    },
-    "symfony/security-guard": {
-        "version": "v5.3.7"
-    },
-    "symfony/security-http": {
-        "version": "v5.3.8"
     },
     "symfony/service-contracts": {
         "version": "v2.4.0"

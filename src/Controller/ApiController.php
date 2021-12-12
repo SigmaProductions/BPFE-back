@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Controller;
@@ -10,7 +11,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 
-class Api extends AbstractController
+class ApiController extends AbstractController
 {
     public function __construct(
         private RepositoryAggregate $repositoryAggregate
@@ -21,7 +22,6 @@ class Api extends AbstractController
     public function aggregate(Request $request): JsonResponse
     {
         $decoded = json_decode($request->getContent(), true);
-        var_dump($decoded);
         $address = new Address($decoded['address']['street'], $decoded['address']['number'], $decoded['address']['postcode']);
         $demanded = $decoded['demanded'];
         $result = [];
@@ -45,5 +45,10 @@ class Api extends AbstractController
         return new JsonResponse(
             $result
         );
+    }
+
+    public function metaDescription(): JsonResponse
+    {
+        return new JsonResponse(json_decode(file_get_contents(__DIR__ . '/../../config/meta-description.json'), true));
     }
 }

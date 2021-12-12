@@ -1,4 +1,9 @@
-capacity_planner_branches:
+aggregate:
   path: /aggregate
-  controller: App\Controller\Api::aggregate
+  controller: App\Controller\ApiController::aggregate
   methods: [ POST ]
+
+meta-description:
+  path: /meta-description
+  controller: App\Controller\ApiController::metaDescription
+  methods: [ GET ]
